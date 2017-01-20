@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
 
 class TopNav extends Component {
 	render() {
@@ -16,9 +17,9 @@ class TopNav extends Component {
 					</div>
 					<div id='navbar' className='navbar-collapse collapse'>
 						<ul className='nav navbar-nav'>
-						  <li className='active'><a href='/'>Home</a></li>
-						  <li><a href='/profile'>Profile</a></li>
-						  <li><a href='#'>Messages</a></li>
+						  <li className='active'><Link to='/'>Home</Link></li>
+						  <li><Link to='/profile'>Profile</Link></li>
+						  <li><Link to='/messages'>Messages</Link></li>
 						  <li className='dropdown'>
 						    <a className='dropdown-toggle' data-toggle='dropdown'>
 						      Dropdown <span className='caret'></span>
