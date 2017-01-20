@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class TopNav extends Component {
 	render() {
 		return (
-			<nav className='navbar navbar-inverse navbar-fixed-top'>
+			<nav className='navbar navbar-inverse'>
 				<div className='container-fluid'>
 					<div className='navbar-header'>
 						<button className='navbar-toggle' type='button' data-toggle='collapse' data-target="#navbar">
@@ -16,8 +16,8 @@ class TopNav extends Component {
 					</div>
 					<div id='navbar' className='navbar-collapse collapse'>
 						<ul className='nav navbar-nav'>
-						  <li className='active'><a href='#'>Home</a></li>
-						  <li><a href='#'>Profile</a></li>
+						  <li className='active'><a href='/'>Home</a></li>
+						  <li><a href='/profile'>Profile</a></li>
 						  <li><a href='#'>Messages</a></li>
 						  <li className='dropdown'>
 						    <a className='dropdown-toggle' data-toggle='dropdown'>
