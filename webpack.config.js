@@ -15,11 +15,10 @@ module.exports = {
 	},
 	module: {
 		// loader 加载器
-		loaders: [{
-			test: /\.(js|jsx)$/,
-			exclude: /node_modules/,
-			loader: 'babel-loader'
-		}]
+		loaders: [
+			{test: /\.(js|jsx)$/, exclude: /node_modules/, loader: 'babel-loader'},
+			{test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'},
+		]
 	},
 	devSever: {
 		inline: true
