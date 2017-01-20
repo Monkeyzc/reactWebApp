@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --progress",
-    "dev": "webpack-dev-server --inline --hot --content-base app"
+    "dev": "webpack-dev-server --color --inline --hot --content-base app"
   },
-  "author": "",
+  "author": "zhaofei199210@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhaoFeiK/reactWebApp.git"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",
