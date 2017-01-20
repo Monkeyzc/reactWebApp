@@ -10,7 +10,7 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
 	entry: './app/index.js',
 	output: {
-		path: './build',
+		path: './public',
 		filename: 'bundle.js'
 	},
 	module: {

@@ -4,12 +4,12 @@ const path = require('path')
 const port = process.env.PORT || 8000
 const app = express()
 
-console.log(__dirname + '/build/index.html')
+console.log(__dirname + '/public/index.html')
 
 app.use(express.static(path.join(__dirname, 'build')))
 app.get('*', (req, res) => {
 
-  res.sendFile(__dirname + '/build/index.html')
+  res.sendFile(__dirname + '/public/index.html')
 })
 
 app.listen(port)
