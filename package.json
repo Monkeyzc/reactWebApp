@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js"
     "build": "webpack --config webpack.config.js --progress",
     "dev": "webpack-dev-server --color --inline --hot --content-base app"
   },
