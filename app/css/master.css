@@ -1,0 +1,22 @@
+body {
+     margin: 0;
+     background: url('./images/bg.jpg') no-repeat center center fixed;
+     background-size: 1440px 800px;
+     background-repeat: no-repeat;
+}
+
+.fork-github {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+.name-ch {
+	font-size: 30px;
+	color: white;
+}
+
+.name-en {
+	font-size: 30px;
+	color: white;
+}
