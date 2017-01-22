@@ -58,7 +58,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	__webpack_require__(244);
+	__webpack_require__(245);
 
 	(0, _reactDom.render)(_react2.default.createElement(_Root2.default, null), document.getElementById('app'));
 
@@ -21560,7 +21560,7 @@
 					_react2.default.createElement(
 						_reactRouter.Route,
 						{ path: '/', component: _Container2.default },
-						_react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
+						_react2.default.createElement(_reactRouter.IndexRoute, { component: _Resume2.default }),
 						_react2.default.createElement(_reactRouter.Route, { path: 'profile', component: _Profile2.default }),
 						_react2.default.createElement(_reactRouter.Route, { path: 'messages', component: _Messages2.default }),
 						_react2.default.createElement(_reactRouter.Route, { path: 'resume', component: _Resume2.default })
@@ -27041,207 +27041,220 @@
 			value: function render() {
 				return _react2.default.createElement(
 					'div',
-					{ classNameName: 'resume-book-bg' },
+					null,
 					_react2.default.createElement(
 						'div',
-						{ className: 'container' },
+						{ className: 'resume-book-bg' },
 						_react2.default.createElement(
 							'div',
-							{ className: 'agile-logo' },
-							_react2.default.createElement(
-								'h1',
-								null,
-								_react2.default.createElement(
-									'a',
-									{ href: 'index.html' },
-									'Creative',
-									_react2.default.createElement(
-										'span',
-										null,
-										'Resume'
-									)
-								)
-							)
-						),
-						_react2.default.createElement(
-							'div',
-							{ className: 'w3l-banner-grids' },
+							{ className: 'container' },
 							_react2.default.createElement(
 								'div',
-								{ className: 'col-md-8 w3ls-banner-right' },
+								{ className: 'agile-logo' },
 								_react2.default.createElement(
-									'div',
-									{ className: 'banner-right-img' },
-									_react2.default.createElement('img', { src: __webpack_require__(240), alt: '' })
-								),
-								_react2.default.createElement(
-									'div',
-									{ className: 'banner-right-info' },
+									'h1',
+									null,
 									_react2.default.createElement(
-										'h2',
+										'a',
 										null,
-										'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque tellus dignissim dolor dignissim, sit amet convallis nisi dignissim.'
-									),
-									_react2.default.createElement(
-										'p',
-										null,
-										'Donec dolor felis, consectetur eget massa non, mattis euismod est. Nam augue neque, hendrerit nec scelerisque non, ultrices at ligula. Praesent posuere, turpis eget lobortis elementum, ex ante ultricies ligula, sit amet varius lacus dui in magna. Aliquam erat volutpat. Nulla condimentum, enim vitae congue ultrices, nibh erat efficitur sem, vel iaculis lectus eros in turpis. Aliquam venenatis cursus suscipit.'
-									)
-								),
-								_react2.default.createElement(
-									'div',
-									{ className: 'clearfix' },
-									' '
-								),
-								_react2.default.createElement(
-									'div',
-									{ className: 'w3-button' },
-									_react2.default.createElement(
-										'div',
-										{ className: 'w3-button-info m_nav_item' },
+										'Creative',
 										_react2.default.createElement(
-											'a',
-											{ className: 'hvr-sweep-to-bottom', href: '#contact' },
-											'\u8054\u7CFB\u6211'
-										)
-									)
-								),
-								_react2.default.createElement(
-									'div',
-									{ className: 'social-grids' },
-									_react2.default.createElement(
-										'div',
-										{ className: 'social-info' },
-										_react2.default.createElement(
-											'h4',
+											'span',
 											null,
-											'Follow : '
+											'Resume'
 										)
+									)
+								)
+							),
+							_react2.default.createElement(
+								'div',
+								{ className: 'w3l-banner-grids' },
+								_react2.default.createElement(
+									'div',
+									{ className: 'col-md-8 w3ls-banner-right' },
+									_react2.default.createElement(
+										'div',
+										{ className: 'banner-right-img' },
+										_react2.default.createElement('img', { src: __webpack_require__(240), alt: '' })
 									),
 									_react2.default.createElement(
 										'div',
-										{ className: 'agileinfo-social-grids' },
+										{ className: 'banner-right-info' },
 										_react2.default.createElement(
-											'ul',
+											'h2',
 											null,
-											_react2.default.createElement(
-												'li',
-												null,
-												_react2.default.createElement(
-													'a',
-													{ href: '#' },
-													_react2.default.createElement('img', { className: 'mySocialAccount', src: __webpack_require__(241) })
-												)
-											),
-											_react2.default.createElement(
-												'li',
-												null,
-												_react2.default.createElement(
-													'a',
-													{ href: '#' },
-													_react2.default.createElement('img', { className: 'mySocialAccount', src: __webpack_require__(242) })
-												)
-											),
-											_react2.default.createElement(
-												'li',
-												null,
-												_react2.default.createElement(
-													'a',
-													{ href: '#' },
-													_react2.default.createElement('img', { className: 'mySocialAccount', src: __webpack_require__(243) })
-												)
-											)
+											'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque tellus dignissim dolor dignissim, sit amet convallis nisi dignissim.'
+										),
+										_react2.default.createElement(
+											'p',
+											null,
+											'Donec dolor felis, consectetur eget massa non, mattis euismod est. Nam augue neque, hendrerit nec scelerisque non, ultrices at ligula. Praesent posuere, turpis eget lobortis elementum, ex ante ultricies ligula, sit amet varius lacus dui in magna. Aliquam erat volutpat. Nulla condimentum, enim vitae congue ultrices, nibh erat efficitur sem, vel iaculis lectus eros in turpis. Aliquam venenatis cursus suscipit.'
 										)
 									),
 									_react2.default.createElement(
 										'div',
 										{ className: 'clearfix' },
 										' '
-									)
-								)
-							),
-							_react2.default.createElement(
-								'div',
-								{ className: 'col-md-4 w3ls-banner-left' },
-								_react2.default.createElement(
-									'div',
-									{ className: 'w3ls-banner-left-info' },
-									_react2.default.createElement(
-										'h4',
-										null,
-										'\u804C  \u4F4D'
 									),
 									_react2.default.createElement(
-										'p',
-										null,
-										'iOS \u5F00\u53D1\u5DE5\u7A0B\u5E08'
-									)
-								),
-								_react2.default.createElement(
-									'div',
-									{ className: 'w3ls-banner-left-info' },
-									_react2.default.createElement(
-										'h4',
-										null,
-										'\u59D3  \u540D'
-									),
-									_react2.default.createElement(
-										'p',
-										null,
-										'\u8D75\u98DE \uFF08Zhao fei\uFF09'
-									)
-								),
-								_react2.default.createElement(
-									'div',
-									{ className: 'w3ls-banner-left-info' },
-									_react2.default.createElement(
-										'h4',
-										null,
-										'\u6027  \u522B'
-									),
-									_react2.default.createElement(
-										'p',
-										null,
-										'\u7537'
-									)
-								),
-								_react2.default.createElement(
-									'div',
-									{ className: 'w3ls-banner-left-info' },
-									_react2.default.createElement(
-										'h4',
-										null,
-										'\u5730  \u5740'
-									),
-									_react2.default.createElement(
-										'p',
-										null,
-										'\u4E2D\u56FD\uFF0C\u5317\u4EAC'
-									)
-								),
-								_react2.default.createElement(
-									'div',
-									{ className: 'w3ls-banner-left-info' },
-									_react2.default.createElement(
-										'h4',
-										null,
-										'\u90AE  \u7BB1'
-									),
-									_react2.default.createElement(
-										'p',
-										null,
+										'div',
+										{ className: 'w3-button' },
 										_react2.default.createElement(
-											'a',
-											{ href: 'mailto:example@email.com' },
-											'zhaofei199210@gmail.com'
+											'div',
+											{ className: 'w3-button-info m_nav_item' },
+											_react2.default.createElement(
+												'a',
+												{ className: 'hvr-sweep-to-bottom', href: '#contact' },
+												'\u8054\u7CFB\u6211'
+											)
+										)
+									),
+									_react2.default.createElement(
+										'div',
+										{ className: 'social-grids' },
+										_react2.default.createElement(
+											'div',
+											{ className: 'social-info' },
+											_react2.default.createElement(
+												'h4',
+												null,
+												'Follow : '
+											)
+										),
+										_react2.default.createElement(
+											'div',
+											{ className: 'agileinfo-social-grids' },
+											_react2.default.createElement(
+												'ul',
+												null,
+												_react2.default.createElement(
+													'li',
+													null,
+													_react2.default.createElement(
+														'a',
+														{ href: 'http://weibo.com/@ZhaoFeiFSP' },
+														_react2.default.createElement('img', { className: 'social-img gmail', src: __webpack_require__(241) })
+													)
+												),
+												_react2.default.createElement(
+													'li',
+													null,
+													_react2.default.createElement(
+														'a',
+														{ href: 'http://fb.me/fei.zhao.fsp' },
+														_react2.default.createElement('img', { className: 'social-img facebook', src: __webpack_require__(242) })
+													)
+												),
+												_react2.default.createElement(
+													'li',
+													null,
+													_react2.default.createElement(
+														'a',
+														{ href: 'http://twitter.com/fei_zhao_fei' },
+														_react2.default.createElement('img', { className: 'social-img twitter', src: __webpack_require__(243) })
+													)
+												),
+												_react2.default.createElement(
+													'li',
+													null,
+													_react2.default.createElement(
+														'a',
+														{ href: 'mailto:zhaofei199210@gmail.com' },
+														_react2.default.createElement('img', { className: 'social-img gmail', src: __webpack_require__(244) })
+													)
+												)
+											)
+										),
+										_react2.default.createElement(
+											'div',
+											{ className: 'clearfix' },
+											' '
 										)
 									)
+								),
+								_react2.default.createElement(
+									'div',
+									{ className: 'col-md-4 w3ls-banner-left' },
+									_react2.default.createElement(
+										'div',
+										{ className: 'w3ls-banner-left-info' },
+										_react2.default.createElement(
+											'h4',
+											null,
+											'\u804C  \u4F4D'
+										),
+										_react2.default.createElement(
+											'p',
+											null,
+											'iOS \u5F00\u53D1\u5DE5\u7A0B\u5E08'
+										)
+									),
+									_react2.default.createElement(
+										'div',
+										{ className: 'w3ls-banner-left-info' },
+										_react2.default.createElement(
+											'h4',
+											null,
+											'\u59D3  \u540D'
+										),
+										_react2.default.createElement(
+											'p',
+											null,
+											'\u8D75\u98DE \uFF08Zhao fei\uFF09'
+										)
+									),
+									_react2.default.createElement(
+										'div',
+										{ className: 'w3ls-banner-left-info' },
+										_react2.default.createElement(
+											'h4',
+											null,
+											'\u6027  \u522B'
+										),
+										_react2.default.createElement(
+											'p',
+											null,
+											'\u7537'
+										)
+									),
+									_react2.default.createElement(
+										'div',
+										{ className: 'w3ls-banner-left-info' },
+										_react2.default.createElement(
+											'h4',
+											null,
+											'\u5730  \u5740'
+										),
+										_react2.default.createElement(
+											'p',
+											null,
+											'\u4E2D\u56FD\uFF0C\u5317\u4EAC'
+										)
+									),
+									_react2.default.createElement(
+										'div',
+										{ className: 'w3ls-banner-left-info' },
+										_react2.default.createElement(
+											'h4',
+											null,
+											'\u90AE  \u7BB1'
+										),
+										_react2.default.createElement(
+											'p',
+											null,
+											_react2.default.createElement(
+												'a',
+												{ href: 'mailto:zhaofei199210@gmail.com' },
+												'zhaofei199210@gmail.com'
+											)
+										)
+									)
+								),
+								_react2.default.createElement(
+									'div',
+									{ className: 'clearfix' },
+									' '
 								)
-							),
-							_react2.default.createElement(
-								'div',
-								{ className: 'clearfix' },
-								' '
 							)
 						)
 					)
@@ -27262,30 +27275,36 @@
 
 /***/ },
 /* 241 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "data:image/png;base64,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"
+	module.exports = __webpack_require__.p + "d66ac67d32f8501bf578e6d6002e4203.png";
 
 /***/ },
 /* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "4b514fbf346f8363eed03955504c0a93.png";
+	module.exports = __webpack_require__.p + "3185f4ba316dc7248ba29ca1d2ff2381.png";
 
 /***/ },
 /* 243 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "8e462b045122dd2affac057a2f7939f7.png";
+	module.exports = __webpack_require__.p + "d67ecbfc8ff558290671cf39f27b7d64.png";
 
 /***/ },
 /* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__.p + "dce2f2b0e50cb1dbb0246d152791cb46.png";
+
+/***/ },
+/* 245 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(245);
+	var content = __webpack_require__(246);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(249)(content, {});
@@ -27305,21 +27324,21 @@
 	}
 
 /***/ },
-/* 245 */
+/* 246 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(246)();
+	exports = module.exports = __webpack_require__(247)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "body {\r\n     margin: 0;\r\n     background: url(" + __webpack_require__(247) + ") no-repeat center center fixed;\r\n     background-size: 1440px 800px;\r\n     background-repeat: no-repeat;\r\n}\r\n\r\n.fork-github {\r\n\tposition: absolute;\r\n\ttop: 50px;\r\n\tright: 0;\r\n}\r\n\r\n.name-ch {\r\n\tfont-size: 30px;\r\n\tcolor: white;\r\n}\r\n\r\n.name-en {\r\n\tfont-size: 30px;\r\n\tcolor: white;\r\n}\r\n\r\n\r\n/*resume*/\r\n.resume-book-bg {\r\n\tbackground: url(" + __webpack_require__(248) + ") no-repeat 0px 0;\r\n    background-size: cover;\r\n    padding: 1em 0 5em;\r\n}\r\n\r\n.mySocialAccount {\r\n\twidth: 50px;\r\n\theight: 50px;\r\n}\r\n\r\n.agile-logo {\r\n    width: 13%;\r\n}\r\n.agile-logo h1{\r\n\tmargin:0;\r\n}\r\n.agile-logo h1 a{\r\n    color: #FFFfff;\r\n    font-size: .4em;\r\n    letter-spacing: 12px;\r\n    font-family: 'Roboto Slab', serif;\r\n    text-decoration: none;\r\n}\r\n.agile-logo h1 a span{\r\n    display: block;\r\n    font-size: 2em !important;\r\n    font-weight: 700;\r\n    letter-spacing: 6px;\r\n}\r\n.w3l-banner-grids {\r\n    margin: 4em 0 0 0;\r\n    padding: 2em 1em;\r\n    background: rgba(255, 255, 255, 0.18);\r\n}\r\n.w3ls-banner-right {\r\n    float: right;\r\n}\r\n.w3ls-banner-left {\r\n    float: left;\r\n}\r\n.w3ls-banner-left-info {\r\n    padding: 1em 0;\r\n    border-bottom: 1px dashed #fff;\r\n}\r\n.w3ls-banner-left-info h4,.social-info h4{\r\n    font-size: 1.2em;\r\n    margin: 0;\r\n    font-family: 'Roboto Slab', serif;\r\n    color: #FFFFFF;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n    letter-spacing: 2px;\r\n}\r\n.w3ls-banner-left-info p{\r\n    font-size: .9em;\r\n    margin: 1em 0 0 0;\r\n    color: #cecece;\r\n}\r\n.w3ls-banner-left-info p a{\r\n    font-size: .9em;\r\n    margin: 1em 0 0 0;\r\n    color: #cecece;\r\n\ttext-decoration:none;\r\n}\r\n.w3ls-banner-left-info p a:hover{\r\n\tcolor:#FF9800;\r\n}\r\n.w3ls-banner-left-info:nth-child(5){\r\n\tborder:none;\r\n}\r\n.banner-right-img{\r\n    float: left;\r\n    width: 30%;\r\n}\r\n.banner-right-img img{\r\n    width: 100%;\r\n    border: solid 8px #ffffff;\r\n}\r\n.banner-right-info{\r\n    float: right;\r\n    width: 65%;\r\n}\r\n.banner-right-info h2{\r\n    color: #FFFFFF;\r\n    font-size: 1em;\r\n    font-weight: 600;\r\n    margin: 0;\r\n    line-height: 1.5em;\r\n}\r\n.banner-right-info p{\r\n\tcolor:#cecece;\r\n\tfont-size:.9em;\r\n\tmargin:1em 0 0 0;\r\n\tline-height:1.8em;\r\n}\r\n.w3-button {\r\n    margin: 3em 0 0 0;\r\n}\r\n.w3-button-info {\r\n    line-height: inherit !important;\r\n}\r\n.w3-button a{\r\n    padding: .5em 2em;\r\n    color: #ffffff !important;\r\n    text-transform: uppercase;\r\n    background: #FF9800;\r\n    font-weight: 700 !important;\r\n    text-decoration: none !important;\r\n    line-height: initial !important;\r\n    font-size: .9em !important;\r\n    margin: 0 !important;\r\n}\r\n.w3-button a:focus{\r\n\toutline:none;\r\n}\r\n/* Sweep To Bottom */\r\n.hvr-sweep-to-bottom {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n}\r\n.hvr-sweep-to-bottom:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #ffffff;\r\n  -webkit-transform: scaleY(0);\r\n  transform: scaleY(0);\r\n  -webkit-transform-origin: 50% 0;\r\n  transform-origin: 50% 0;\r\n  -webkit-transition-property: transform;\r\n  transition-property: transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\r\n}\r\n.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {\r\n\tcolor: #2f2f2f !important;\r\n}\r\n.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {\r\n  -webkit-transform: scaleY(1);\r\n  transform: scaleY(1);\r\n}\r\n.social-grids {\r\n    margin: 2em 0 0 0;\r\n}\r\n.social-info{\r\n\tfloat:left;\r\n\twidth:20%;\r\n}\r\n.social-info h4 {\r\n    margin: .2em 0 0 0 !important;\r\n}\r\n.agileinfo-social-grids{\r\n    float: left;\r\n    margin:0;\r\n}\r\n.agileinfo-social-grids ul {\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n.agileinfo-social-grids ul li {\r\n    display: inline-block;\r\n    margin: 0 .5em 0 0;\r\n}\r\n.agileinfo-social-grids ul li a {\r\n    color: #FFFFFF;\r\n    text-align: center;\r\n}\r\n.agileinfo-social-grids ul li a i.fa.fa-facebook, .agileinfo-social-grids ul li a i.fa.fa-twitter, .agileinfo-social-grids ul li a i.fa.fa-rss, .agileinfo-social-grids ul li a i.fa.fa-vk {\r\n    height: 30px;\r\n    width: 30px;\r\n    border: solid 2px #FFFFFF;\r\n    line-height: 29px;\r\n    background: none;\r\n    color: #FFFFFF;\r\n    transition: 0.5s all;\r\n    -webkit-transition: 0.5s all;\r\n    -moz-transition: 0.5s all;\r\n    -o-transition: 0.5s all;\r\n    -ms-transition: 0.5s all;\r\n}\r\n.agileinfo-social-grids ul li a i.fa.fa-facebook:hover {\r\n\tborder: solid 2px #3b5998;\r\n\tbackground:#3b5998;\r\n    color: #FFFFFF;\r\n}\r\n.agileinfo-social-grids ul li a i.fa.fa-twitter:hover{\r\n\tborder: solid 2px #55acee;\r\n\tbackground:#55acee;\r\n\tcolor: #FFFFFF;\r\n}\r\n.agileinfo-social-grids ul li a i.fa.fa-rss:hover{\r\n\tborder: solid 2px #f26522;\r\n\tbackground:#f26522;\r\n\tcolor: #FFFFFF;\r\n}\r\n.agileinfo-social-grids ul li a i.fa.fa-vk:hover{\r\n\tborder: solid 2px #45668e;\r\n\tbackground:#45668e;\r\n\tcolor: #FFFFFF;\r\n}\r\n/*-- //banner --*/\r\n/*-- about --*/\r\n.about,.statistics,.experience,.feedback,.projects,.contact{\r\n    padding: 4em 0;\r\n}\r\n.wthree-about-left h3,.wthree-about-right h3,.w3-agileits-statistics-heading h3{\r\n    color: #2f2f2f;\r\n    font-size: 2em;\r\n    margin: 0 0 1em 0;\r\n    font-family: 'Roboto Slab', serif;\r\n    font-weight: 700;\r\n    letter-spacing: 1px;\r\n    text-transform: uppercase;\r\n}\r\n.wthree-about-left h4{\r\n    color: #2f2f2f;\r\n    font-size: 1em;\r\n    font-weight: 600;\r\n    margin: 0;\r\n    line-height: 1.5em;\r\n}\r\n.wthree-about-left p{\r\n\tcolor: #999999;\r\n    font-size: .9em;\r\n    margin: 1em 0 0 0;\r\n    line-height: 1.8em;\r\n}\r\n.wthree-about-left p span{\r\n    display: block;\r\n    margin: 1em 0;\r\n}\r\n/*-- skills --*/\r\n.skills-bar .bar_group__bar.thin::before, .skills-bar .bar_group__bar.thick::before {\r\n  display: block;\r\n  content: '';\r\n  position: absolute;\r\n  z-index: -1;\r\n}\r\n\r\n.skills-bar .bar_group__bar.thin::before {\r\n  width: 100%;\r\n  height: 4px;\r\n  border-radius: 2px;\r\n  background: #E4E4E4;\r\n}\r\n\r\n.skills-bar .bar_group__bar.thin {\r\n  width: 0%;\r\n  height: 4px;\r\n  border-radius: 2px;\r\n  background: red;\r\n  margin-bottom: 10px;\r\n  -webkit-transition: width 1s;\r\n          transition: width 1s;\r\n}\r\n.skills-bar .b_label, .skills-bar .bar_label_min, .skills-bar .bar_label_max, .skills-bar .b_tooltip span {\r\n    color: #2f2f2f;\r\n    font-size: .9em;\r\n\tfont-weight:600;\r\n}\r\n.skills-bar .bar_label_max {\r\n    position: absolute;\r\n    right: 0;\r\n    margin: 1em 0 0 0;\r\n}\r\n.skills-bar .bar_label_min {\r\n    position: absolute;\r\n    left: 0;\r\n    margin: 1em 0 0 0;\r\n}\r\n.skills-bar .b_tooltip {\r\n  -webkit-transition: all 1s;\r\n          transition: all 1s;\r\n  position: relative;\r\n  float: left;\r\n  left: 100%;\r\n  padding: 4px 10px 7px 10px;\r\n  background-color: rgba(67, 66, 76, 0.81);\r\n  -webkit-transform: translateX(-50%) translateY(-30px);\r\n  -ms-transform: translateX(-50%) translateY(-30px);\r\n  transform: translateX(-50%) translateY(-30px);\r\n  border-radius: 2px;\r\n  line-height: 11px;\r\n}\r\n.skills-bar .b_tooltip span {\r\n  color: white;\r\n}\r\n.skills-bar .b_tooltip--tri {\r\n  width: 0;\r\n  height: 0;\r\n  position: absolute;\r\n  content: '';\r\n  bottom: -5px;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 5px 5px 0 5px;\r\n  border-color: rgba(67, 66, 76, 0.81) transparent transparent transparent;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(1) {\r\n    background: #ff9800;\r\n    z-index: 9990 !important;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(2) {\r\n  background: #ff9800;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(3) {\r\n  background: #ff9800;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(4) {\r\n  background: #ff9800;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(5) {\r\n  background: #ff9800;\r\n}\r\n.bar_group {\r\n  position: relative;\r\n}\r\n/*-- //skills --*/\r\n/*-- //about --*/\r\n/*-- statistics --*/\r\n.statistics{\r\n\tbackground-size:cover;\r\n}\r\n.jarallax {\r\n    position: relative;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-position: 50% 50%;\r\n}\r\n.w3-agileits-statistics-heading h3{\r\n    text-align: center;\r\n    color: #FFFFFF;\r\n}\r\n.agile-statistics-grids {\r\n    margin: 4em 0 0 0;\r\n}\r\n.agile-statistics-grid{\r\n\ttext-align:center;\r\n}\r\n.agile-statistics-grid h4{\r\n    color: #FFFFFF;\r\n    font-size: 2em;\r\n    margin: 0 0 .5em 0;\r\n}\r\n.agile-statistics-grid p{\r\n    color: #FFFFFF;\r\n    font-size: 1em;\r\n    margin: 1em 0 0 0;\r\n    text-transform: uppercase;\r\n    font-weight: 600;\r\n    letter-spacing: 1px;\r\n}\r\n.agile-statistics-grid i.fa.fa-desktop,.agile-statistics-grid i.fa.fa-user,.agile-statistics-grid i.fa.fa-trophy {\r\n\tcolor: #FFFFFF;\r\n    font-size: 2em;\r\n    width: 100px;\r\n    height: 100px;\r\n    background: #ff9800;\r\n    border-radius: 50%;\r\n    padding: 1.1em 0 0 0;\r\n}\r\n.statistics-grid2{\r\n\tposition:relative;\r\n}\r\n.statistics-grid2:before{\r\n    content: \"\";\r\n    height: 2px;\r\n    background: #FFFFFF;\r\n    position: absolute;\r\n    width: 36%;\r\n    top: 100px;\r\n    left: -60px;\r\n}\r\n.statistics-grid2:after{\r\n    content: \"\";\r\n    height: 2px;\r\n    background: #FFFFFF;\r\n    position: absolute;\r\n    width: 36%;\r\n    top: 100px;\r\n    right: -60px;\r\n}\r\n/*-- //statistics --*/\r\n/*-- experience --*/\r\n.experience{\r\n\tbackground:#FFFFFF;\r\n}\r\n.experience-heading h3{\r\n\tcolor: #2f2f2f;\r\n}\r\n.w3-agile-experience-grids {\r\n    margin: 4em 0 0 0;\r\n}\r\n.experience-grid{\r\n    text-align: center;\r\n    padding: 2em;\r\n    border-right: solid 1px #999999;\r\n    border-bottom: solid 1px #999999;\r\n}\r\n.experience-grid-icon i.fa.fa-folder-open,.experience-grid-icon i.fa.fa-bell,.experience-grid-icon i.fa.fa-comments,.experience-grid-icon i.fa.fa-asterisk{\r\n    color: #2f2f2f;\r\n    background: none;\r\n    border: solid 2px #ff9800;\r\n    width: 100px;\r\n    height: 100px;\r\n    font-size: 2em;\r\n    padding: 1.1em 0 0 0;\r\n}\r\n.experience-grid-info h5{\r\n    color: #2f2f2f;\r\n    font-size: 1.5em;\r\n    margin: 1em 0 0 0;\r\n    font-weight: 700;\r\n}\r\n.experience-grid-info p{\r\n\tcolor: #999999;\r\n    font-size: .9em;\r\n    margin: 1em 0 0 0;\r\n    line-height: 1.8em;\r\n}\r\n.experience-grid1 {\r\n    border-right: none !important;\r\n}\r\n.experience-grid2 {\r\n    border-bottom: none !important;\r\n}\r\n.experience-grid3 {\r\n    border-bottom: none !important;\r\n    border-right: none !important;\r\n}\r\n/* Radial Out */\r\n.hvr-radial-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  position: relative;\r\n  overflow: hidden;\r\n  background: none;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n}\r\n.hvr-radial-out:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #ff9800;\r\n  border-radius: 100%;\r\n  -webkit-transform: scale(0);\r\n  transform: scale(0);\r\n  -webkit-transition-property: transform;\r\n  transition-property: transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\r\n}\r\n.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {\r\n  color: #FFFFFF;\r\n}\r\n.experience-grid:hover div.hvr-radial-out:before{\r\n  -webkit-transform: scale(2);\r\n  transform: scale(2);\t\r\n  color:#FFFFFF;\r\n    transition: 0.5s all;\r\n  -webkit-transition: 0.5s all;\r\n  -o-transition: 0.5s all;\r\n  -moz-transition: 0.5s all;\r\n  -ms-transition: 0.5s all;\r\n}\r\n.experience-grid:hover div i.fa.fa-folder-open,.experience-grid:hover div i.fa.fa-bell,.experience-grid:hover div i.fa.fa-comments,.experience-grid:hover div i.fa.fa-asterisk{\r\n\tcolor: #FFFFFF;\r\n}\r\n/*-- //experience --*/\r\n/*-- feedback --*/\r\n.feedback{\r\n\tbackground-size:cover;\r\n}\r\n.feedback-top{\r\n    padding: 1em;\r\n    background: rgba(255, 255, 255, 0.18);\r\n\tposition:relative;\r\n}\r\n.feedback-top:after {\r\n    content: '';\r\n    position: absolute;\r\n    top: 100%;\r\n    left: 27%;\r\n    width: 0;\r\n    height: 0;\r\n    border-top: 9px solid rgba(227, 227, 227, 0.23);\r\n    border-right: 9px solid transparent;\r\n    border-left: 9px solid transparent;\r\n    transform: rotate(0deg);\r\n}\r\n.feedback-top p{\r\n\tcolor:#FFFFFF;\r\n\tfont-size:.9em;\r\n\tmargin:0;\r\n\tline-height:1.8em;\r\n}\r\n.feedback-img{\r\n    float: left;\r\n    width: 28%;\r\n}\r\n.feedback-grids {\r\n    margin: 2em auto 0;\r\n    width: 55%;\r\n}\r\n.feedback-img img{\r\n\twidth:100%;\r\n}\r\n.feedback-info {\r\n    margin: 1em !important;\r\n}\r\n.feedback-img-info{\r\n    float: left;\r\n    width: 50%;\r\n    margin-left: .5em;\r\n}\r\n.feedback-img-info h5{\r\n    color: #ff9800;\r\n    font-size: 1em;\r\n    margin: 0;\r\n    font-weight: 600;\r\n}\r\n.feedback-img-info p{\r\n    color: #cecece;\r\n    font-size: .9em;\r\n    margin: 0;\r\n}\r\n/*-- //feedback --*/\r\n/*-- portfolio --*/\r\n.portfolio{\r\n\tpadding:4em 0;\r\n\tbackground: #f6f6f6;\r\n}\r\n.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {\r\n    color: #ffffff;\r\n    cursor: default;\r\n    background: #ff9800;\r\n    border: solid 2px #ff9800;\r\n}\r\n.nav-tabs > li > a {\r\n    margin-right: 3px;\r\n    border-radius: 0;\r\n    font-size:1em;\r\n    color: #333333;\r\n\tborder: solid 2px #333333;\r\n}\r\n.nav-tabs > li > a:focus{\r\n\tbackground:transparent;\r\n}\r\n.nav-tabs {\r\n    border-bottom: none;\r\n    margin: 3em auto;\r\n    width: 34%;\r\n    text-align: center;\r\n}\r\n.nav-tabs > li {\r\n    margin: 0 10px;\r\n}\r\n.nav-tabs > li > a:hover {\r\n    color: #FFFFFF;\r\n    background: #ff9800;\r\n    border: solid 2px #ff9800;\r\n}\r\n.w3_tab_img_left h3 {\r\n    font-size: 1.5em;\r\n    color: #fff;\r\n    margin: 0 0 .5em;\r\n}\r\n.w3_tab_img_left p{\r\n\tcolor:#fff;\r\n\tline-height:2em;\r\n}\r\n.w3_tab_img_left {\r\n    margin: 2em 0 0;\r\n}\r\n/*-- //portfolio --*/\r\n/*-- map --*/\r\n.map {\r\n    -webkit-filter: grayscale(100%);\r\n    -moz-filter: grayscale(100%);\r\n    -ms-filter: grayscale(100%);\r\n    -o-filter: grayscale(100%);\r\n    filter: grayscale(100%);\r\n}\r\n.map-grid iframe {\r\n    border: none;\r\n    width: 100%;\r\n    height: 400px;\r\n}\r\n/*-- //map --*/\r\n/*-- contact --*/\r\n.contact-form{\r\n\tmargin:4em 0 0 0;\r\n}\r\n.styled-input.agile-styled-input-top {\r\n    margin-top: 0;\r\n} \r\n.contact input[type=\"text\"],.contact textarea{\r\n    font-size: .9em;\r\n    color: #8c8c8c;\r\n    padding: 0.5em 1em;\r\n    border: 0;\r\n    width: 100%;\r\n    border-bottom: 1px solid #dcdcdc;\r\n    background: none;\r\n    -webkit-appearance: none;\r\n\toutline: none;\r\n}\r\n.contact textarea { \r\n\tmin-height: 150px;\r\n    resize: none;\r\n} \r\n/*-- input-effect --*/\r\n.styled-input input:focus ~ label, .styled-input input:valid ~ label,.styled-input textarea:focus ~ label ,.styled-input textarea:valid ~ label{\r\n    font-size: .9em;\r\n    color: #333333;\r\n    top: -1.3em;\r\n    -webkit-transition: all 0.125s;\r\n\t-moz-transition: all 0.125s; \r\n\t-o-transition: all 0.125s;\r\n\t-ms-transition: all 0.125s;\r\n    transition: all 0.125s;\r\n}\r\n.styled-input {\r\n\twidth: 49%;\r\n    margin: 2em 0 1em 1em;\r\n    position: relative;\r\n    float: left;\r\n}\r\n.styled-input:nth-child(1),.styled-input:nth-child(3){\r\n\tmargin-left:0;\r\n}\r\n.textarea-grid{\r\n\tfloat:none !important;\r\n\twidth:100% !important;\r\n\tmargin-left:0 !important;\r\n}\r\n.styled-input label {\r\n\tcolor: #8c8c8c;\r\n    padding: 0.5em .9em;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    -webkit-transition: all 0.3s;\r\n    -moz-transition: all 0.3s;\r\n    transition: all 0.3s;\r\n    pointer-events: none;\r\n    font-weight: 400;\r\n    font-size: .9em;\r\n    display: block;\r\n    line-height: 1em;\r\n}\r\n.styled-input input ~ span,.styled-input textarea ~ span {\r\n\tdisplay: block;\r\n    width: 0;\r\n    height: 2px;\r\n    background: #333;\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    -webkit-transition: all 0.125s;\r\n    -moz-transition: all 0.125s;\r\n    transition: all 0.125s;\r\n}\r\n.styled-input textarea ~ span { \r\n    bottom: 5px; \r\n}\r\n.styled-input input:focus.styled-input textarea:focus { \r\n\toutline: 0; \r\n} \r\n.styled-input input:focus ~ span,.styled-input textarea:focus ~ span {\r\n\twidth: 100%;\r\n\t-webkit-transition: all 0.075s;\r\n\t-moz-transition: all 0.075s;  \r\n\ttransition: all 0.075s; \r\n} \r\n/*-- //input-effect --*/\r\n.contact input[type=\"submit\"] {\r\n    outline: none;\r\n    color: #FFFFFF;\r\n    padding: .5em 3em;\r\n    font-size: .9em;\r\n    font-weight: 600;\r\n    margin: 1em 0 0 0;\r\n    -webkit-appearance: none;\r\n    background: #FF9800;\r\n    border: 2px solid #ff9800;\r\n    -webkit-transition: 0.5s all;\r\n    -moz-transition: 0.5s all;\r\n    -o-transition: 0.5s all;\r\n    -ms-transition: 0.5s all;\r\n    transition: 0.5s all;\r\n}\r\n.contact input[type=\"submit\"]:hover {\r\n    background-color: transparent;\r\n    color: #333333;\r\n\tbackground:none;\r\n\tborder: 2px solid #333333;\r\n}\r\n/*-- //contact --*/\r\n/*-- footer --*/\r\n.agileits-w3layouts-footer{\r\n\tpadding:1em 0;\r\n\ttext-align:center;\r\n\tbackground: #0f1215;\r\n}\r\n.agileits-w3layouts-footer p{\r\n\tcolor:#FFFFFF;\r\n\tmargin:0;\r\n\tfont-size:.9em;\r\n}\r\n.agileits-w3layouts-footer p a{\r\n\tcolor:#FFFFFF;\r\n\ttext-decoration:none;\r\n}\r\n.agileits-w3layouts-footer p a:hover{\r\n\tcolor:#FF9800;\r\n}\r\n/*-- //footer --*/\r\n/*-- responsive --*/\r\n@media(max-width:1440px){\r\n\t#m_nav_menu {\r\n\t\tright: 140px!important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 38%;\r\n\t}\r\n}\r\n@media(max-width:1366px){\r\n\t#m_nav_menu {\r\n\t\tright: 105px!important;\r\n\t}\r\n}\r\n@media(max-width:1280px){\r\n\t#m_nav_menu {\r\n\t\tright: 61px!important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 43%;\r\n\t}\r\n}\r\n@media(max-width:1080px){\r\n\t.nav-tabs {\r\n\t\twidth: 51%;\r\n\t}\r\n\t.m_nav_item a {\r\n\t\tfont-weight: 600 !important;\r\n\t}\r\n\t#m_nav_container {\r\n\t    text-align: center !important;\r\n\t\tbox-shadow: 0 0 2px #000 !important;\r\n\t}\r\n\t#m_nav_list {\r\n\t    margin: 0.5em 0 0 0 !important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\tmargin: 1em auto;\r\n\t}\r\n}\r\n@media(max-width:1024px){\r\n\t#m_nav_menu {\r\n\t\tright: 33px!important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 54%;\r\n\t}\r\n}\r\n@media(max-width:991px){\r\n\t.w3ls-banner-left {\r\n\t\twidth: 35%;\r\n\t}\r\n\t.w3ls-banner-right {\r\n\t\twidth: 65%;\r\n\t}\r\n\t.banner-right-img {\r\n\t\tfloat: none;\r\n\t\twidth: 35%;\r\n\t}\r\n\t.banner-right-info {\r\n\t\tfloat: none;\r\n\t\twidth: 100%;\r\n\t\tmargin: 1em 0 0 0;\r\n\t}\r\n\t.w3-button {\r\n\t\tmargin: 1em 0 0 0;\r\n\t}\r\n\t.social-info {\r\n\t\tfloat: left;\r\n\t\twidth: 30%;\r\n\t}\r\n\t#m_nav_menu {\r\n\t\tright: 120px!important;\r\n\t}\r\n\t.wthree-about-right {\r\n\t\tmargin: 2em 0 0 0;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: -38px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: -38px;\r\n\t}\r\n\t.experience-grid {\r\n\t\tborder-right: none;\r\n\t}\r\n\t.experience-grid2 {\r\n\t\tborder-bottom: solid 1px #999999 !important;\r\n\t}\r\n\t.m_nav_item a {\r\n\t\tfont-size: 1em !important;\r\n\t}\r\n\t.feedback-grids {\r\n\t\twidth: 100%;\r\n\t}\r\n\t.feedback-top:after {\r\n\t\tleft: 10%;\r\n\t}\r\n\t.w3_tab_img_left {\r\n\t\tfloat: left;\r\n\t\twidth: 25%;\r\n\t}\r\n\t.styled-input {\r\n\t\twidth: 48%;\r\n\t}\r\n}\r\n@media(max-width:800px){\r\n\t#m_nav_menu {\r\n\t\tright: 31px!important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 70%;\r\n\t}\r\n}\r\n@media(max-width:736px){\r\n\t#m_nav_menu {\r\n\t\tright: 16px!important;\r\n\t}\r\n\t.agile-statistics-grid {\r\n\t\tfloat: left;\r\n\t\twidth: 33.33%;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 71%;\r\n\t}\r\n\t#m_nav_container {\r\n\t\theight: 230px !important;\r\n\t}\r\n}\r\n@media(max-width:667px){\r\n\t.social-info {\r\n\t\twidth: 35%;\r\n\t}\r\n\t.nav-tabs > li {\r\n\t\tmargin: 0 4px;\r\n\t}\r\n\t.w3_tab_img_left {\r\n\t\twidth: 50%;\r\n\t}\r\n}\r\n@media(max-width:640px){\r\n\t.nav-tabs {\r\n\t\twidth: 73%;\r\n\t}\r\n}\r\n@media(max-width:568px){\r\n\t.social-info {\r\n\t\twidth: 40%;\r\n\t}\r\n\t.agile-statistics-grid p {\r\n\t\tfont-size: .9em;\r\n\t\tletter-spacing: 0px;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: -28px;\r\n\t\twidth: 32%;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: -28px;\r\n\t\twidth: 32%;\r\n\t}\r\n\t.experience-grid {\r\n\t\tpadding: 2em 0;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 84%;\r\n\t}\r\n}\r\n@media(max-width:480px){\r\n\t.banner-right-img {\r\n\t\twidth: 45%;\r\n\t}\r\n\t.w3ls-banner-left {\r\n\t\tfloat: none;\r\n\t\twidth: 100%;\r\n\t\tmargin: 1em 0 0 0;\r\n\t}\r\n\t.w3ls-banner-right {\r\n\t\twidth: 100%;\r\n\t\tfloat: none;\r\n\t}\r\n\t.banner-right-img {\r\n\t\twidth: 36%;\r\n\t\tmargin: 0 auto;\r\n\t}\r\n\t.w3l-banner-grids {\r\n\t\tmargin: 2em 0 0 0;\r\n\t}\r\n\t.banner {\r\n\t\tpadding: 1em 0 2em;\r\n\t}\r\n\t.about, .statistics, .experience, .feedback, .projects, .contact {\r\n\t\tpadding: 2em 0;\r\n\t}\r\n\t.agile-statistics-grid {\r\n\t\tfloat: none;\r\n\t\twidth: 100%;\r\n\t}\r\n\t.statistics-grid2 {\r\n\t\tposition: relative;\r\n\t\tmargin: 6em 0;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: 216px;\r\n\t\twidth: 2px;\r\n\t\theight: 65px;\r\n\t\ttop: -77px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: 215px;\r\n\t\twidth: 2px;\r\n\t\theight: 65px;\r\n\t\ttop: 200px;\r\n\t}\r\n\t.nav-tabs > li > a {\r\n\t\tpadding: 5px 8px;\r\n\t}\r\n}\r\n@media(max-width:414px){\r\n\t.wthree-about-left h3, .wthree-about-right h3, .w3-agileits-statistics-heading h3 {\r\n\t\tfont-size: 1.5em;\r\n\t}\r\n\t.agile-statistics-grids {\r\n\t\tmargin: 2em 0 0 0;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: 183px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: 183px;\r\n\t}\r\n\t.w3-agile-experience-grids {\r\n\t\tmargin: 0em 0 0 0;\r\n\t}\r\n\t.experience-grid {\r\n\t\tpadding: 1em 0;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 95%;\r\n\t}\r\n\t.nav-tabs {\r\n\t\tmargin: 1em auto 0;\r\n\t}\r\n\t.map-grid iframe {\r\n\t\theight: 200px;\r\n\t}\r\n\t.styled-input {\r\n\t\twidth: 100%;\r\n\t}\r\n\t.styled-input {\r\n\t\tmargin: 1em 0em;\r\n\t}\r\n\t.styled-input.agile-styled-input-top {\r\n\t\tmargin-top: 1em;\r\n\t}\r\n\t.m_nav_ham {\r\n\t\twidth: 25px !important;\r\n\t\theight: 2px !important;\r\n\t}\r\n\t.m_nav_ham_2_open {\r\n\t\tmargin-top: -7px !important;\r\n\t}\r\n\t.m_nav_ham_1_open {\r\n\t\tmargin-top: 11px !important;\r\n\t}\r\n}\r\n@media(max-width:384px){\r\n\t.statistics-grid2:before {\r\n\t\tleft: 170px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: 170px;\r\n\t}\r\n\t.nav-tabs > li > a {\r\n\t\tfont-size: .87em;\r\n\t}\r\n\t.contact-form {\r\n\t\tmargin: 2em 0 0 0;\r\n\t}\r\n}\r\n@media(max-width:375px){\r\n\t.statistics-grid2:before {\r\n\t\tleft: 162px;\r\n\t}\r\n\t.nav-tabs > li {\r\n\t\tmargin: 3px 4px;\r\n\t}\r\n\t.w3_tab_img_left {\r\n\t\twidth: 100%;\r\n\t\tmargin: 1em 0 0 0;\r\n\t}\r\n}\r\n@media(max-width:320px){\r\n\t.agile-logo {\r\n\t\twidth: 50%;\r\n\t}\r\n\t.agile-logo h1 a {\r\n\t\tfont-size: .3em;\r\n\t}\r\n\t.agile-logo h1 a span {\r\n\t\tfont-size: 2.3em !important;\r\n\t}\r\n\t.banner-right-img {\r\n\t\twidth: 60%;\r\n\t}\r\n\t.w3ls-banner-right {\r\n\t\tpadding: 0;\r\n\t}\r\n\t.social-info {\r\n\t\twidth: 100%;\r\n\t\tfloat: none;\r\n\t\tmargin-bottom: 1em;\r\n\t}\r\n\t.agileinfo-social-grids {\r\n\t\tfloat: none;\r\n\t\tmargin: 0;\r\n\t\twidth: 100%;\r\n\t}\r\n\t.w3ls-banner-left {\r\n\t\tpadding: 0;\r\n\t}\r\n\t.agile-statistics-grid i.fa.fa-desktop, .agile-statistics-grid i.fa.fa-user, .agile-statistics-grid i.fa.fa-trophy {\r\n\t\twidth: 80px;\r\n\t\theight: 80px;\r\n\t\tpadding: 1.2em 0 0 0;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: 135px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: 135px;\r\n\t\ttop: 181px;\r\n\t}\r\n\t.experience-grid-icon i.fa.fa-folder-open, .experience-grid-icon i.fa.fa-bell, .experience-grid-icon i.fa.fa-comments, .experience-grid-icon i.fa.fa-asterisk {\r\n\t\twidth: 80px;\r\n\t\theight: 80px;\r\n\t\tpadding: .7em 0 0 0;\r\n\t}\r\n}\r\n/*-- //responsive --*/", ""]);
+	exports.push([module.id, "/*body {\r\n     margin: 0;\r\n     \r\n     background-repeat: no-repeat;background: url('./images/bg.jpg') no-repeat center center fixed;\r\n     background-size: 1440px 800px;\r\n}\r\n*/\r\n.fork-github {\r\n\tposition: absolute;\r\n\ttop: 50px;\r\n\tright: 0;\r\n}\r\n\r\n.name-ch {\r\n\tfont-size: 30px;\r\n\tcolor: white;\r\n}\r\n\r\n.name-en {\r\n\tfont-size: 30px;\r\n\tcolor: white;\r\n}\r\n\r\n\r\n/*resume*/\r\n.resume-book-bg {\r\n\tbackground: url(" + __webpack_require__(248) + ") no-repeat 0px 0;\r\n  background-size: cover;\r\n}\r\n\r\n.agile-logo {\r\n    width: 13%;\r\n}\r\n.agile-logo h1{\r\n\tmargin:0;\r\n}\r\n.agile-logo h1 a{\r\n    color: #FFFfff;\r\n    font-size: .4em;\r\n    letter-spacing: 12px;\r\n    font-family: 'Roboto Slab', serif;\r\n    text-decoration: none;\r\n}\r\n.agile-logo h1 a span{\r\n    display: block;\r\n    font-size: 2em !important;\r\n    font-weight: 700;\r\n    letter-spacing: 6px;\r\n}\r\n.w3l-banner-grids {\r\n    margin: 4em 0 0 0;\r\n    padding: 2em 1em;\r\n    background: rgba(255, 255, 255, 0.18);\r\n}\r\n.w3ls-banner-right {\r\n    float: right;\r\n}\r\n.w3ls-banner-left {\r\n    float: left;\r\n}\r\n.w3ls-banner-left-info {\r\n    padding: 1em 0;\r\n    border-bottom: 1px dashed #fff;\r\n}\r\n.w3ls-banner-left-info h4,.social-info h4{\r\n    font-size: 1.2em;\r\n    margin: 0;\r\n    font-family: 'Roboto Slab', serif;\r\n    color: #FFFFFF;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n    letter-spacing: 2px;\r\n}\r\n.w3ls-banner-left-info p{\r\n    font-size: .9em;\r\n    margin: 1em 0 0 0;\r\n    color: #cecece;\r\n}\r\n.w3ls-banner-left-info p a{\r\n    font-size: .9em;\r\n    margin: 1em 0 0 0;\r\n    color: #cecece;\r\n\ttext-decoration:none;\r\n}\r\n.w3ls-banner-left-info p a:hover{\r\n\tcolor:#FF9800;\r\n}\r\n.w3ls-banner-left-info:nth-child(5){\r\n\tborder:none;\r\n}\r\n.banner-right-img{\r\n    float: left;\r\n    width: 20%;\r\n}\r\n.banner-right-img img{\r\n    width: 100%;\r\n    border: solid 8px #ffffff;\r\n}\r\n.banner-right-info{\r\n    float: right;\r\n    width: 65%;\r\n}\r\n.banner-right-info h2{\r\n    color: #FFFFFF;\r\n    font-size: 1em;\r\n    font-weight: 600;\r\n    margin: 0;\r\n    line-height: 1.5em;\r\n}\r\n.banner-right-info p{\r\n\tcolor:#cecece;\r\n\tfont-size:.9em;\r\n\tmargin:1em 0 0 0;\r\n\tline-height:1.8em;\r\n}\r\n.w3-button {\r\n    margin: 3em 0 0 0;\r\n}\r\n.w3-button-info {\r\n    line-height: inherit !important;\r\n}\r\n.w3-button a{\r\n    padding: .5em 2em;\r\n    color: #ffffff !important;\r\n    text-transform: uppercase;\r\n    background: #FF9800;\r\n    font-weight: 700 !important;\r\n    text-decoration: none !important;\r\n    line-height: initial !important;\r\n    font-size: .9em !important;\r\n    margin: 0 !important;\r\n}\r\n.w3-button a:focus{\r\n\toutline:none;\r\n}\r\n/* Sweep To Bottom */\r\n.hvr-sweep-to-bottom {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  position: relative;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n}\r\n.hvr-sweep-to-bottom:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #ffffff;\r\n  -webkit-transform: scaleY(0);\r\n  transform: scaleY(0);\r\n  -webkit-transform-origin: 50% 0;\r\n  transform-origin: 50% 0;\r\n  -webkit-transition-property: transform;\r\n  transition-property: transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\r\n}\r\n.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {\r\n\tcolor: #2f2f2f !important;\r\n}\r\n.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {\r\n  -webkit-transform: scaleY(1);\r\n  transform: scaleY(1);\r\n}\r\n\r\n/*social*/\r\n.social-grids {\r\n    margin: 2em 0 0 0;\r\n}\r\n.social-info{\r\n\tfloat: left;\r\n\twidth: 15%;\r\n}\r\n.social-info h4 {\r\n    margin: .2em 0 0 0 !important;\r\n}\r\n.agileinfo-social-grids{\r\n    float: left;\r\n    margin:0;\r\n}\r\n.agileinfo-social-grids ul {\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n.agileinfo-social-grids ul li {\r\n    display: inline-block;\r\n    margin: 0 .5em 0 0;\r\n}\r\n\r\n.social-img {\r\n    width: 30px;\r\n    height: 30px;\r\n}\r\n.facebook:hover {\r\n    border: solid 2px;\r\n    color: #FFFFFF;\r\n}\r\n\r\n.twitter:hover {\r\n    border: solid 2px;\r\n    color: #FFFFFF;\r\n}\r\n\r\n.gmail:hover {\r\n    border: solid 2px;\r\n    color: #FFFFFF;\r\n}\r\n\r\n/*-- //banner --*/\r\n\r\n/*-- about --*/\r\n.about,.statistics,.experience,.feedback,.projects,.contact{\r\n    padding: 4em 0;\r\n}\r\n.wthree-about-left h3,.wthree-about-right h3,.w3-agileits-statistics-heading h3{\r\n    color: #2f2f2f;\r\n    font-size: 2em;\r\n    margin: 0 0 1em 0;\r\n    font-family: 'Roboto Slab', serif;\r\n    font-weight: 700;\r\n    letter-spacing: 1px;\r\n    text-transform: uppercase;\r\n}\r\n.wthree-about-left h4{\r\n    color: #2f2f2f;\r\n    font-size: 1em;\r\n    font-weight: 600;\r\n    margin: 0;\r\n    line-height: 1.5em;\r\n}\r\n.wthree-about-left p{\r\n\tcolor: #999999;\r\n    font-size: .9em;\r\n    margin: 1em 0 0 0;\r\n    line-height: 1.8em;\r\n}\r\n.wthree-about-left p span{\r\n    display: block;\r\n    margin: 1em 0;\r\n}\r\n\r\n/*-- skills --*/\r\n.skills-bar .bar_group__bar.thin::before, .skills-bar .bar_group__bar.thick::before {\r\n  display: block;\r\n  content: '';\r\n  position: absolute;\r\n  z-index: -1;\r\n}\r\n\r\n.skills-bar .bar_group__bar.thin::before {\r\n  width: 100%;\r\n  height: 4px;\r\n  border-radius: 2px;\r\n  background: #E4E4E4;\r\n}\r\n\r\n.skills-bar .bar_group__bar.thin {\r\n  width: 0%;\r\n  height: 4px;\r\n  border-radius: 2px;\r\n  background: red;\r\n  margin-bottom: 10px;\r\n  -webkit-transition: width 1s;\r\n          transition: width 1s;\r\n}\r\n.skills-bar .b_label, .skills-bar .bar_label_min, .skills-bar .bar_label_max, .skills-bar .b_tooltip span {\r\n  color: #2f2f2f;\r\n  font-size: .9em;\r\n\tfont-weight:600;\r\n}\r\n.skills-bar .bar_label_max {\r\n    position: absolute;\r\n    right: 0;\r\n    margin: 1em 0 0 0;\r\n}\r\n.skills-bar .bar_label_min {\r\n    position: absolute;\r\n    left: 0;\r\n    margin: 1em 0 0 0;\r\n}\r\n.skills-bar .b_tooltip {\r\n  -webkit-transition: all 1s;\r\n          transition: all 1s;\r\n  position: relative;\r\n  float: left;\r\n  left: 100%;\r\n  padding: 4px 10px 7px 10px;\r\n  background-color: rgba(67, 66, 76, 0.81);\r\n  -webkit-transform: translateX(-50%) translateY(-30px);\r\n  -ms-transform: translateX(-50%) translateY(-30px);\r\n  transform: translateX(-50%) translateY(-30px);\r\n  border-radius: 2px;\r\n  line-height: 11px;\r\n}\r\n.skills-bar .b_tooltip span {\r\n  color: white;\r\n}\r\n.skills-bar .b_tooltip--tri {\r\n  width: 0;\r\n  height: 0;\r\n  position: absolute;\r\n  content: '';\r\n  bottom: -5px;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  display: block;\r\n  border-style: solid;\r\n  border-width: 5px 5px 0 5px;\r\n  border-color: rgba(67, 66, 76, 0.81) transparent transparent transparent;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(1) {\r\n    background: #ff9800;\r\n    z-index: 9990 !important;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(2) {\r\n  background: #ff9800;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(3) {\r\n  background: #ff9800;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(4) {\r\n  background: #ff9800;\r\n}\r\n.skills-bar .bar_group__bar:nth-of-type(5) {\r\n  background: #ff9800;\r\n}\r\n.bar_group {\r\n  position: relative;\r\n}\r\n/*-- //skills --*/\r\n/*-- //about --*/\r\n\r\n/*-- statistics --*/\r\n.statistics{\r\n\tbackground-size:cover;\r\n}\r\n.jarallax {\r\n    position: relative;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-position: 50% 50%;\r\n}\r\n.w3-agileits-statistics-heading h3{\r\n    text-align: center;\r\n    color: #FFFFFF;\r\n}\r\n.agile-statistics-grids {\r\n    margin: 4em 0 0 0;\r\n}\r\n.agile-statistics-grid{\r\n\ttext-align:center;\r\n}\r\n.agile-statistics-grid h4{\r\n    color: #FFFFFF;\r\n    font-size: 2em;\r\n    margin: 0 0 .5em 0;\r\n}\r\n.agile-statistics-grid p{\r\n    color: #FFFFFF;\r\n    font-size: 1em;\r\n    margin: 1em 0 0 0;\r\n    text-transform: uppercase;\r\n    font-weight: 600;\r\n    letter-spacing: 1px;\r\n}\r\n.agile-statistics-grid i.fa.fa-desktop,.agile-statistics-grid i.fa.fa-user,.agile-statistics-grid i.fa.fa-trophy {\r\n\tcolor: #FFFFFF;\r\n    font-size: 2em;\r\n    width: 100px;\r\n    height: 100px;\r\n    background: #ff9800;\r\n    border-radius: 50%;\r\n    padding: 1.1em 0 0 0;\r\n}\r\n.statistics-grid2{\r\n\tposition:relative;\r\n}\r\n.statistics-grid2:before{\r\n    content: \"\";\r\n    height: 2px;\r\n    background: #FFFFFF;\r\n    position: absolute;\r\n    width: 36%;\r\n    top: 100px;\r\n    left: -60px;\r\n}\r\n.statistics-grid2:after{\r\n    content: \"\";\r\n    height: 2px;\r\n    background: #FFFFFF;\r\n    position: absolute;\r\n    width: 36%;\r\n    top: 100px;\r\n    right: -60px;\r\n}\r\n/*-- //statistics --*/\r\n/*-- experience --*/\r\n.experience{\r\n\tbackground:#FFFFFF;\r\n}\r\n.experience-heading h3{\r\n\tcolor: #2f2f2f;\r\n}\r\n.w3-agile-experience-grids {\r\n    margin: 4em 0 0 0;\r\n}\r\n.experience-grid{\r\n    text-align: center;\r\n    padding: 2em;\r\n    border-right: solid 1px #999999;\r\n    border-bottom: solid 1px #999999;\r\n}\r\n.experience-grid-icon i.fa.fa-folder-open,.experience-grid-icon i.fa.fa-bell,.experience-grid-icon i.fa.fa-comments,.experience-grid-icon i.fa.fa-asterisk{\r\n    color: #2f2f2f;\r\n    background: none;\r\n    border: solid 2px #ff9800;\r\n    width: 100px;\r\n    height: 100px;\r\n    font-size: 2em;\r\n    padding: 1.1em 0 0 0;\r\n}\r\n.experience-grid-info h5{\r\n    color: #2f2f2f;\r\n    font-size: 1.5em;\r\n    margin: 1em 0 0 0;\r\n    font-weight: 700;\r\n}\r\n.experience-grid-info p{\r\n\tcolor: #999999;\r\n    font-size: .9em;\r\n    margin: 1em 0 0 0;\r\n    line-height: 1.8em;\r\n}\r\n.experience-grid1 {\r\n    border-right: none !important;\r\n}\r\n.experience-grid2 {\r\n    border-bottom: none !important;\r\n}\r\n.experience-grid3 {\r\n    border-bottom: none !important;\r\n    border-right: none !important;\r\n}\r\n/* Radial Out */\r\n.hvr-radial-out {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n  -webkit-transform: translateZ(0);\r\n  transform: translateZ(0);\r\n  box-shadow: 0 0 1px rgba(0, 0, 0, 0);\r\n  -webkit-backface-visibility: hidden;\r\n  backface-visibility: hidden;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  position: relative;\r\n  overflow: hidden;\r\n  background: none;\r\n  -webkit-transition-property: color;\r\n  transition-property: color;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n}\r\n.hvr-radial-out:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  z-index: -1;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background: #ff9800;\r\n  border-radius: 100%;\r\n  -webkit-transform: scale(0);\r\n  transform: scale(0);\r\n  -webkit-transition-property: transform;\r\n  transition-property: transform;\r\n  -webkit-transition-duration: 0.3s;\r\n  transition-duration: 0.3s;\r\n  -webkit-transition-timing-function: ease-out;\r\n  transition-timing-function: ease-out;\r\n}\r\n.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {\r\n  color: #FFFFFF;\r\n}\r\n.experience-grid:hover div.hvr-radial-out:before{\r\n  -webkit-transform: scale(2);\r\n  transform: scale(2);\t\r\n  color:#FFFFFF;\r\n    transition: 0.5s all;\r\n  -webkit-transition: 0.5s all;\r\n  -o-transition: 0.5s all;\r\n  -moz-transition: 0.5s all;\r\n  -ms-transition: 0.5s all;\r\n}\r\n.experience-grid:hover div i.fa.fa-folder-open,.experience-grid:hover div i.fa.fa-bell,.experience-grid:hover div i.fa.fa-comments,.experience-grid:hover div i.fa.fa-asterisk{\r\n\tcolor: #FFFFFF;\r\n}\r\n/*-- //experience --*/\r\n/*-- feedback --*/\r\n.feedback{\r\n\tbackground-size:cover;\r\n}\r\n.feedback-top{\r\n    padding: 1em;\r\n    background: rgba(255, 255, 255, 0.18);\r\n\tposition:relative;\r\n}\r\n.feedback-top:after {\r\n    content: '';\r\n    position: absolute;\r\n    top: 100%;\r\n    left: 27%;\r\n    width: 0;\r\n    height: 0;\r\n    border-top: 9px solid rgba(227, 227, 227, 0.23);\r\n    border-right: 9px solid transparent;\r\n    border-left: 9px solid transparent;\r\n    transform: rotate(0deg);\r\n}\r\n.feedback-top p{\r\n\tcolor:#FFFFFF;\r\n\tfont-size:.9em;\r\n\tmargin:0;\r\n\tline-height:1.8em;\r\n}\r\n.feedback-img{\r\n    float: left;\r\n    width: 28%;\r\n}\r\n.feedback-grids {\r\n    margin: 2em auto 0;\r\n    width: 55%;\r\n}\r\n.feedback-img img{\r\n\twidth:100%;\r\n}\r\n.feedback-info {\r\n    margin: 1em !important;\r\n}\r\n.feedback-img-info{\r\n    float: left;\r\n    width: 50%;\r\n    margin-left: .5em;\r\n}\r\n.feedback-img-info h5{\r\n    color: #ff9800;\r\n    font-size: 1em;\r\n    margin: 0;\r\n    font-weight: 600;\r\n}\r\n.feedback-img-info p{\r\n    color: #cecece;\r\n    font-size: .9em;\r\n    margin: 0;\r\n}\r\n/*-- //feedback --*/\r\n/*-- portfolio --*/\r\n.portfolio{\r\n\tpadding:4em 0;\r\n\tbackground: #f6f6f6;\r\n}\r\n.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {\r\n    color: #ffffff;\r\n    cursor: default;\r\n    background: #ff9800;\r\n    border: solid 2px #ff9800;\r\n}\r\n.nav-tabs > li > a {\r\n    margin-right: 3px;\r\n    border-radius: 0;\r\n    font-size:1em;\r\n    color: #333333;\r\n\tborder: solid 2px #333333;\r\n}\r\n.nav-tabs > li > a:focus{\r\n\tbackground:transparent;\r\n}\r\n.nav-tabs {\r\n    border-bottom: none;\r\n    margin: 3em auto;\r\n    width: 34%;\r\n    text-align: center;\r\n}\r\n.nav-tabs > li {\r\n    margin: 0 10px;\r\n}\r\n.nav-tabs > li > a:hover {\r\n    color: #FFFFFF;\r\n    background: #ff9800;\r\n    border: solid 2px #ff9800;\r\n}\r\n.w3_tab_img_left h3 {\r\n    font-size: 1.5em;\r\n    color: #fff;\r\n    margin: 0 0 .5em;\r\n}\r\n.w3_tab_img_left p{\r\n\tcolor:#fff;\r\n\tline-height:2em;\r\n}\r\n.w3_tab_img_left {\r\n    margin: 2em 0 0;\r\n}\r\n/*-- //portfolio --*/\r\n/*-- map --*/\r\n.map {\r\n    -webkit-filter: grayscale(100%);\r\n    -moz-filter: grayscale(100%);\r\n    -ms-filter: grayscale(100%);\r\n    -o-filter: grayscale(100%);\r\n    filter: grayscale(100%);\r\n}\r\n.map-grid iframe {\r\n    border: none;\r\n    width: 100%;\r\n    height: 400px;\r\n}\r\n/*-- //map --*/\r\n/*-- contact --*/\r\n.contact-form{\r\n\tmargin:4em 0 0 0;\r\n}\r\n.styled-input.agile-styled-input-top {\r\n    margin-top: 0;\r\n} \r\n.contact input[type=\"text\"],.contact textarea{\r\n    font-size: .9em;\r\n    color: #8c8c8c;\r\n    padding: 0.5em 1em;\r\n    border: 0;\r\n    width: 100%;\r\n    border-bottom: 1px solid #dcdcdc;\r\n    background: none;\r\n    -webkit-appearance: none;\r\n\toutline: none;\r\n}\r\n.contact textarea { \r\n\tmin-height: 150px;\r\n    resize: none;\r\n} \r\n/*-- input-effect --*/\r\n.styled-input input:focus ~ label, .styled-input input:valid ~ label,.styled-input textarea:focus ~ label ,.styled-input textarea:valid ~ label{\r\n    font-size: .9em;\r\n    color: #333333;\r\n    top: -1.3em;\r\n    -webkit-transition: all 0.125s;\r\n\t-moz-transition: all 0.125s; \r\n\t-o-transition: all 0.125s;\r\n\t-ms-transition: all 0.125s;\r\n    transition: all 0.125s;\r\n}\r\n.styled-input {\r\n\twidth: 49%;\r\n    margin: 2em 0 1em 1em;\r\n    position: relative;\r\n    float: left;\r\n}\r\n.styled-input:nth-child(1),.styled-input:nth-child(3){\r\n\tmargin-left:0;\r\n}\r\n.textarea-grid{\r\n\tfloat:none !important;\r\n\twidth:100% !important;\r\n\tmargin-left:0 !important;\r\n}\r\n.styled-input label {\r\n\tcolor: #8c8c8c;\r\n    padding: 0.5em .9em;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    -webkit-transition: all 0.3s;\r\n    -moz-transition: all 0.3s;\r\n    transition: all 0.3s;\r\n    pointer-events: none;\r\n    font-weight: 400;\r\n    font-size: .9em;\r\n    display: block;\r\n    line-height: 1em;\r\n}\r\n.styled-input input ~ span,.styled-input textarea ~ span {\r\n\tdisplay: block;\r\n    width: 0;\r\n    height: 2px;\r\n    background: #333;\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    -webkit-transition: all 0.125s;\r\n    -moz-transition: all 0.125s;\r\n    transition: all 0.125s;\r\n}\r\n.styled-input textarea ~ span { \r\n    bottom: 5px; \r\n}\r\n.styled-input input:focus.styled-input textarea:focus { \r\n\toutline: 0; \r\n} \r\n.styled-input input:focus ~ span,.styled-input textarea:focus ~ span {\r\n\twidth: 100%;\r\n\t-webkit-transition: all 0.075s;\r\n\t-moz-transition: all 0.075s;  \r\n\ttransition: all 0.075s; \r\n} \r\n/*-- //input-effect --*/\r\n.contact input[type=\"submit\"] {\r\n    outline: none;\r\n    color: #FFFFFF;\r\n    padding: .5em 3em;\r\n    font-size: .9em;\r\n    font-weight: 600;\r\n    margin: 1em 0 0 0;\r\n    -webkit-appearance: none;\r\n    background: #FF9800;\r\n    border: 2px solid #ff9800;\r\n    -webkit-transition: 0.5s all;\r\n    -moz-transition: 0.5s all;\r\n    -o-transition: 0.5s all;\r\n    -ms-transition: 0.5s all;\r\n    transition: 0.5s all;\r\n}\r\n.contact input[type=\"submit\"]:hover {\r\n    background-color: transparent;\r\n    color: #333333;\r\n\tbackground:none;\r\n\tborder: 2px solid #333333;\r\n}\r\n/*-- //contact --*/\r\n/*-- footer --*/\r\n.agileits-w3layouts-footer{\r\n\tpadding:1em 0;\r\n\ttext-align:center;\r\n\tbackground: #0f1215;\r\n}\r\n.agileits-w3layouts-footer p{\r\n\tcolor:#FFFFFF;\r\n\tmargin:0;\r\n\tfont-size:.9em;\r\n}\r\n.agileits-w3layouts-footer p a{\r\n\tcolor:#FFFFFF;\r\n\ttext-decoration:none;\r\n}\r\n.agileits-w3layouts-footer p a:hover{\r\n\tcolor:#FF9800;\r\n}\r\n/*-- //footer --*/\r\n/*-- responsive --*/\r\n@media(max-width:1440px){\r\n\t#m_nav_menu {\r\n\t\tright: 140px!important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 38%;\r\n\t}\r\n}\r\n@media(max-width:1366px){\r\n\t#m_nav_menu {\r\n\t\tright: 105px!important;\r\n\t}\r\n}\r\n@media(max-width:1280px){\r\n\t#m_nav_menu {\r\n\t\tright: 61px!important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 43%;\r\n\t}\r\n}\r\n@media(max-width:1080px){\r\n\t.nav-tabs {\r\n\t\twidth: 51%;\r\n\t}\r\n\t.m_nav_item a {\r\n\t\tfont-weight: 600 !important;\r\n\t}\r\n\t#m_nav_container {\r\n\t    text-align: center !important;\r\n\t\tbox-shadow: 0 0 2px #000 !important;\r\n\t}\r\n\t#m_nav_list {\r\n\t    margin: 0.5em 0 0 0 !important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\tmargin: 1em auto;\r\n\t}\r\n}\r\n@media(max-width:1024px){\r\n\t#m_nav_menu {\r\n\t\tright: 33px!important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 54%;\r\n\t}\r\n}\r\n@media(max-width:991px){\r\n\t.w3ls-banner-left {\r\n\t\twidth: 35%;\r\n\t}\r\n\t.w3ls-banner-right {\r\n\t\twidth: 65%;\r\n\t}\r\n\t.banner-right-img {\r\n\t\tfloat: none;\r\n\t\twidth: 35%;\r\n\t}\r\n\t.banner-right-info {\r\n\t\tfloat: none;\r\n\t\twidth: 100%;\r\n\t\tmargin: 1em 0 0 0;\r\n\t}\r\n\t.w3-button {\r\n\t\tmargin: 1em 0 0 0;\r\n\t}\r\n\t.social-info {\r\n\t\tfloat: left;\r\n\t\twidth: 30%;\r\n\t}\r\n\t#m_nav_menu {\r\n\t\tright: 120px!important;\r\n\t}\r\n\t.wthree-about-right {\r\n\t\tmargin: 2em 0 0 0;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: -38px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: -38px;\r\n\t}\r\n\t.experience-grid {\r\n\t\tborder-right: none;\r\n\t}\r\n\t.experience-grid2 {\r\n\t\tborder-bottom: solid 1px #999999 !important;\r\n\t}\r\n\t.m_nav_item a {\r\n\t\tfont-size: 1em !important;\r\n\t}\r\n\t.feedback-grids {\r\n\t\twidth: 100%;\r\n\t}\r\n\t.feedback-top:after {\r\n\t\tleft: 10%;\r\n\t}\r\n\t.w3_tab_img_left {\r\n\t\tfloat: left;\r\n\t\twidth: 25%;\r\n\t}\r\n\t.styled-input {\r\n\t\twidth: 48%;\r\n\t}\r\n}\r\n@media(max-width:800px){\r\n\t#m_nav_menu {\r\n\t\tright: 31px!important;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 70%;\r\n\t}\r\n}\r\n@media(max-width:736px){\r\n\t#m_nav_menu {\r\n\t\tright: 16px!important;\r\n\t}\r\n\t.agile-statistics-grid {\r\n\t\tfloat: left;\r\n\t\twidth: 33.33%;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 71%;\r\n\t}\r\n\t#m_nav_container {\r\n\t\theight: 230px !important;\r\n\t}\r\n}\r\n@media(max-width:667px){\r\n\t.social-info {\r\n\t\twidth: 35%;\r\n\t}\r\n\t.nav-tabs > li {\r\n\t\tmargin: 0 4px;\r\n\t}\r\n\t.w3_tab_img_left {\r\n\t\twidth: 50%;\r\n\t}\r\n}\r\n@media(max-width:640px){\r\n\t.nav-tabs {\r\n\t\twidth: 73%;\r\n\t}\r\n}\r\n@media(max-width:568px){\r\n\t.social-info {\r\n\t\twidth: 40%;\r\n\t}\r\n\t.agile-statistics-grid p {\r\n\t\tfont-size: .9em;\r\n\t\tletter-spacing: 0px;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: -28px;\r\n\t\twidth: 32%;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: -28px;\r\n\t\twidth: 32%;\r\n\t}\r\n\t.experience-grid {\r\n\t\tpadding: 2em 0;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 84%;\r\n\t}\r\n}\r\n@media(max-width:480px){\r\n\t.banner-right-img {\r\n\t\twidth: 45%;\r\n\t}\r\n\t.w3ls-banner-left {\r\n\t\tfloat: none;\r\n\t\twidth: 100%;\r\n\t\tmargin: 1em 0 0 0;\r\n\t}\r\n\t.w3ls-banner-right {\r\n\t\twidth: 100%;\r\n\t\tfloat: none;\r\n\t}\r\n\t.banner-right-img {\r\n\t\twidth: 36%;\r\n\t\tmargin: 0 auto;\r\n\t}\r\n\t.w3l-banner-grids {\r\n\t\tmargin: 2em 0 0 0;\r\n\t}\r\n\t.banner {\r\n\t\tpadding: 1em 0 2em;\r\n\t}\r\n\t.about, .statistics, .experience, .feedback, .projects, .contact {\r\n\t\tpadding: 2em 0;\r\n\t}\r\n\t.agile-statistics-grid {\r\n\t\tfloat: none;\r\n\t\twidth: 100%;\r\n\t}\r\n\t.statistics-grid2 {\r\n\t\tposition: relative;\r\n\t\tmargin: 6em 0;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: 216px;\r\n\t\twidth: 2px;\r\n\t\theight: 65px;\r\n\t\ttop: -77px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: 215px;\r\n\t\twidth: 2px;\r\n\t\theight: 65px;\r\n\t\ttop: 200px;\r\n\t}\r\n\t.nav-tabs > li > a {\r\n\t\tpadding: 5px 8px;\r\n\t}\r\n}\r\n@media(max-width:414px){\r\n\t.wthree-about-left h3, .wthree-about-right h3, .w3-agileits-statistics-heading h3 {\r\n\t\tfont-size: 1.5em;\r\n\t}\r\n\t.agile-statistics-grids {\r\n\t\tmargin: 2em 0 0 0;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: 183px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: 183px;\r\n\t}\r\n\t.w3-agile-experience-grids {\r\n\t\tmargin: 0em 0 0 0;\r\n\t}\r\n\t.experience-grid {\r\n\t\tpadding: 1em 0;\r\n\t}\r\n\t.nav-tabs {\r\n\t\twidth: 95%;\r\n\t}\r\n\t.nav-tabs {\r\n\t\tmargin: 1em auto 0;\r\n\t}\r\n\t.map-grid iframe {\r\n\t\theight: 200px;\r\n\t}\r\n\t.styled-input {\r\n\t\twidth: 100%;\r\n\t}\r\n\t.styled-input {\r\n\t\tmargin: 1em 0em;\r\n\t}\r\n\t.styled-input.agile-styled-input-top {\r\n\t\tmargin-top: 1em;\r\n\t}\r\n\t.m_nav_ham {\r\n\t\twidth: 25px !important;\r\n\t\theight: 2px !important;\r\n\t}\r\n\t.m_nav_ham_2_open {\r\n\t\tmargin-top: -7px !important;\r\n\t}\r\n\t.m_nav_ham_1_open {\r\n\t\tmargin-top: 11px !important;\r\n\t}\r\n}\r\n@media(max-width:384px){\r\n\t.statistics-grid2:before {\r\n\t\tleft: 170px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: 170px;\r\n\t}\r\n\t.nav-tabs > li > a {\r\n\t\tfont-size: .87em;\r\n\t}\r\n\t.contact-form {\r\n\t\tmargin: 2em 0 0 0;\r\n\t}\r\n}\r\n@media(max-width:375px){\r\n\t.statistics-grid2:before {\r\n\t\tleft: 162px;\r\n\t}\r\n\t.nav-tabs > li {\r\n\t\tmargin: 3px 4px;\r\n\t}\r\n\t.w3_tab_img_left {\r\n\t\twidth: 100%;\r\n\t\tmargin: 1em 0 0 0;\r\n\t}\r\n}\r\n@media(max-width:320px){\r\n\t.agile-logo {\r\n\t\twidth: 50%;\r\n\t}\r\n\t.agile-logo h1 a {\r\n\t\tfont-size: .3em;\r\n\t}\r\n\t.agile-logo h1 a span {\r\n\t\tfont-size: 2.3em !important;\r\n\t}\r\n\t.banner-right-img {\r\n\t\twidth: 60%;\r\n\t}\r\n\t.w3ls-banner-right {\r\n\t\tpadding: 0;\r\n\t}\r\n\t.social-info {\r\n\t\twidth: 100%;\r\n\t\tfloat: none;\r\n\t\tmargin-bottom: 1em;\r\n\t}\r\n\t.agileinfo-social-grids {\r\n\t\tfloat: none;\r\n\t\tmargin: 0;\r\n\t\twidth: 100%;\r\n\t}\r\n\t.w3ls-banner-left {\r\n\t\tpadding: 0;\r\n\t}\r\n\t.agile-statistics-grid i.fa.fa-desktop, .agile-statistics-grid i.fa.fa-user, .agile-statistics-grid i.fa.fa-trophy {\r\n\t\twidth: 80px;\r\n\t\theight: 80px;\r\n\t\tpadding: 1.2em 0 0 0;\r\n\t}\r\n\t.statistics-grid2:before {\r\n\t\tleft: 135px;\r\n\t}\r\n\t.statistics-grid2:after {\r\n\t\tright: 135px;\r\n\t\ttop: 181px;\r\n\t}\r\n\t.experience-grid-icon i.fa.fa-folder-open, .experience-grid-icon i.fa.fa-bell, .experience-grid-icon i.fa.fa-comments, .experience-grid-icon i.fa.fa-asterisk {\r\n\t\twidth: 80px;\r\n\t\theight: 80px;\r\n\t\tpadding: .7em 0 0 0;\r\n\t}\r\n}\r\n/*-- //responsive --*/", ""]);
 
 	// exports
 
 
 /***/ },
-/* 246 */
+/* 247 */
 /***/ function(module, exports) {
 
 	/*
@@ -27373,12 +27392,6 @@
 		return list;
 	};
 
-
-/***/ },
-/* 247 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "e368817263c81f3015f61ae9c18382d6.jpg";
 
 /***/ },
 /* 248 */
