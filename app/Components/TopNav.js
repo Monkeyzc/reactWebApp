@@ -20,6 +20,7 @@ class TopNav extends Component {
 						  <li className='active'><Link to='/'>Home</Link></li>
 						  <li><Link to='/profile'>Profile</Link></li>
 						  <li><Link to='/messages'>Messages</Link></li>
+						  <li><Link to='/resume'>Resume</Link></li>
 						  <li className='dropdown'>
 						    <a className='dropdown-toggle' data-toggle='dropdown'>
 						      Dropdown <span className='caret'></span>
